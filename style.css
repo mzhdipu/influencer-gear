@@ -1,0 +1,226 @@
+/* GOOGLE FONT ADDED */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@200;400;500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    display: block;
+}
+h2{
+    font-size: 75px;
+}
+h3{
+    font-size: 45px;
+    text-transform: capitalize;
+    
+}
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+}
+.btn{
+    background-color: #E02C6D;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.btn:hover{
+    background-color:#e02c6db5 ;
+}
+
+/* ==========================================
+            HEADER SECTION STYLE 
+========================================== */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    min-height: 80px;
+}
+.main-header nav ul{
+    display: flex;
+    grid-column-gap: 30px;
+}
+.main-header nav ul li{
+    list-style: none;
+}
+.main-header nav ul li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+/* ==========================================
+            BANNER SECTION STYLE 
+========================================== */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    min-height: 600px;
+}
+.banner .banner-left{
+    width: 60%;
+}
+.banner .banner-left h2{
+    margin-bottom: 30px;
+}
+.banner .banner-left .btn{
+    margin-top: 30px;
+}
+.banner .banner-right{
+    width: 40%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* ==========================================
+            CLIENTS SECTION STYLE 
+========================================== */
+.clients {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 50px;
+    align-items: center;
+    border-top: 1px solid #E9EDF2;
+    border-bottom: 1px solid #E9EDF2;
+    padding: 40px 0;
+}
+.clients a{}
+.clients a img{
+    width: 100px;
+    height: auto;
+}
+
+/* ==========================================
+        POPULAR COLLECTION SECTION STYLE 
+========================================== */
+.popular-collection{
+    padding: 100px 0;
+}
+.popular-collection h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.popular-collection .collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.collection-details {
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 45px 30px;
+    margin: 20px 0;
+}
+.collection-details h4 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.collection-details .price {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.collection-details .ratting i {
+    color: #FB8200;
+}
+.collection-details .ratting span {
+    color: #5E6366;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.collection-details p{
+    color: #787885;
+}
+.popular-collection .see-more{
+    background-color: transparent;
+    color: #E02C6D;
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+}
+
+
+/* ==========================================
+    FEATURED PRODUCTS SECTION STYLE 
+========================================== */
+.featured-product{
+    display: flex;
+    padding: 0 0 100px 0;
+}
+.featured-product .featured-image{
+    width: 35%;
+}
+.featured-product .featured-details {
+    width: 65%;
+    padding: 40px;
+}
+.featured-product .featured-details p {
+    margin: 20px 0;
+    color: #6C6C6C;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+
+/* ==========================================
+    FOOTER SECTION STYLE 
+========================================== */
+footer{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #0A0826;
+}
+footer .footer-logo h1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+}
+footer p{
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+footer .social{
+    margin: 20px 0 0 0;
+}
+
+footer .social a i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+footer .social a i:hover{
+    color: #e9d9d9;
+}
